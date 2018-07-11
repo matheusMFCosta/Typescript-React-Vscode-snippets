@@ -6,8 +6,6 @@ This project is based on [vscode-react-typescript](https://github.com/infeng/vsc
 
 ## Object
 
-https://github.com/xabikos/vscode-react/raw/master/images/component.gif
-
 This project provide a set of snippets to Visual Code to assist developers of React/Typescrip to increase their productivity.
 
 ## What is a snippet in Visual Code?
