@@ -16,7 +16,7 @@ here is an example
 
 ## How to use
 
-In Visual Code window go to **Preferences** > **User Snippets** > **New global Snippet** and them past the all the content of the file snippets.json in the root of this project on visual code
+In Visual Code window go to **Preferences** > **User Snippets** > **New global Snippet** and them in this project copy all the content of the file snippets.json and past in visual code
 
 ## Snippets
 
