@@ -18,6 +18,8 @@ here is an example
 
 In Visual Code window go to **Preferences** > **User Snippets** > **New global Snippet** and them in this project copy all the content of the file snippets.json and past in visual code
 
+With the first step complete, just type in any file a trigger string (all listed below) to include the snipet anywhere you want
+
 ## Snippets
 
 Below is a list of all available snippets and the triggers of each one. The **⇥** means the `TAB` key.
