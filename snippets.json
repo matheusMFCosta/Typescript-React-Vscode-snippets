@@ -174,7 +174,7 @@
   },
   "TypeScriptObject": {
     "prefix": "tsobj",
-    "body": ["{[name:${1:string]:${2:string}"],
+    "body": ["{[name:${1:string]:${2:string}}}"],
     "description": "Create a ts Json objtect structure"
   }
 }
