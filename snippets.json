@@ -176,5 +176,10 @@
     "prefix": "tsobj",
     "body": ["{[name:${1:string]:${2:string}}}"],
     "description": "Create a ts Json objtect structure"
+  },
+  "ConsoleLog": {
+    "prefix": "csl",
+    "body": ["console.log(`${1}`)"],
+    "description": "Create a console.log"
   }
 }
