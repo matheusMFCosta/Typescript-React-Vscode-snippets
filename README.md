@@ -16,7 +16,7 @@ here is an example
 
 ## How to use
 
-In Visual Code window go to **Preferences** > **User Snippets** > **New global Snippet** and them in this project copy all the content of the file snippets.json and past in visual code
+In Visual Code window go to **Preferences** > **User Snippets** > **New global Snippet** and them in this project copy all the content of the file [snippets.json](https://raw.githubusercontent.com/matheusMFCosta/Typescript-React-Vscode-snippets/master/snippets.json) and past in visual code
 
 With the first step complete, just type in any file a trigger string (all listed below) to include the snipet anywhere you want
 
@@ -24,57 +24,8 @@ With the first step complete, just type in any file a trigger string (all listed
 
 Below is a list of all available snippets and the triggers of each one. click on the link to check out
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ->>>
- 
+
 | Trigger                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Content                                                                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | [tsrcc](https://itty.bitty.site/#/?XQAAgACtAwAAAAAAAAAeGIPFKxAzt4kEEkbKZhVKk0lBojauxQ+fDXV3DUBdkFPTyT4SH5AlYs3E/TkcbKVfXBaM2iSQz0azAhx/gsy3rySjHPH0SDy8eO6VMZL0yCiGNtn6/SJfxiYD62FmVamKIvY7LPsRTR1IDE/V1kczLAmPBnya16wtKumuG2HBFVWNKJwMh57qwHVDAaC2Qk9/41Hk6kMd6narAL52pXNztVmz8zV+UZckWFQ7z6XS2PVNsdOXlAaoaF49hYBiK0B9MI52PDAkDHWrrY4m4QkCYqhVSYZwUnVAtiX6w6n+gpbBHAlx7F89WzItYhDdKluQ0i+VtbaZqIO6sNAHCigT2ZX6oiXOcvU+mcqQZY+rRJNM9J9CIA1TrDqpxR50YfmLHFN9EY2vDSgMDerJoJQsvFsFbhMSI4YffJNxWfNgdVV3DyYzv7TpjXAQu8R3sfNJIwhpGsxVdkLQO7fN5C8//3cFqgA=)                                                                                                                    | Create a React Component with typescript.                                                           |

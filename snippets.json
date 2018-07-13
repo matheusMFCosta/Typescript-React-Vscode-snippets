@@ -171,5 +171,10 @@
     "prefix": "gsbu",
     "body": ["getSnapshotBeforeUpdate(prevProps: ${1:any}, prevState: ${2:any}) {", "  ${0}", "}"],
     "description": "Invoked right before the most recently rendered output is committed to e.g. the DOM"
+  },
+  "TypeScriptObject": {
+    "prefix": "tsobj",
+    "body": ["{[name:${1:string]:${2:string}"],
+    "description": "Create a ts Json objtect structure"
   }
 }
