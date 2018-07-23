@@ -77,14 +77,14 @@
     "body": [
       "import * as React from 'react';",
       "",
-      "interface ${1:IApp}Props {$2:}",
+      "interface ${1:IApp}Props ${2:} {",
       "}",
       "",
-      "const $1: React.SFC<$1Props> = (props) => {",
-      "  return ${0:};",
+      "const ${1:}: React.SFC<$1Props> = (props) => {",
+      "  return ${0:<div></div>};",
       "};",
       "",
-      "export default {$1:};"
+      "export default ${1:};"
     ],
     "description": "Create a React Stateless Functional Component."
   },
@@ -174,7 +174,7 @@
   },
   "TypeScriptObject": {
     "prefix": "tsobj",
-    "body": ["{[name:${1:string]}:${2:string}}"],
+    "body": ["{[name:${1:string}]:${2:string}}"],
     "description": "Create a ts Json objtect structure"
   },
   "ConsoleLog": {
