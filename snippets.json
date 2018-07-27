@@ -165,7 +165,7 @@
   "importWithBrakets": {
     "prefix": "imtb",
     "body": ["import { ${1:} } from '${2:}';"],
-    "description": "Create a import"
+    "description": "Create a import with brackets"
   },
   "getDerivedStateFromProps": {
     "prefix": "gdsfp",
