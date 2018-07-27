@@ -159,7 +159,12 @@
   },
   "import": {
     "prefix": "imt",
-    "body": ["import {  ${1:}  } from '${2:}';"],
+    "body": ["import ${1:} from '${2:}';"],
+    "description": "Create a import"
+  },
+  "importWithBrakets": {
+    "prefix": "imtb",
+    "body": ["import { ${1:} } from '${2:}';"],
     "description": "Create a import"
   },
   "getDerivedStateFromProps": {
