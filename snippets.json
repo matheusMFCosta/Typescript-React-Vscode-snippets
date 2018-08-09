@@ -186,5 +186,17 @@
     "prefix": "csl",
     "body": ["console.log(`${1:}`)"],
     "description": "Create a console.log"
+  },
+  "ReactIntlStructure": {
+    "prefix": "tsris",
+    "body": [
+      "import { injectIntl } from 'react-intl'",
+      "intl?: { formatMessage: Function }",
+      "const intlBase = 'admin-settings.general-address'",
+      "@injectIntl",
+      "formatMessage = (id: string) => this.props.intl.formatMessage({ id }, {})",
+      "{this.formatMessage(`${ intlBase }-addressLine1-label`)}"
+    ],
+    "description": "Create a react-intl Structure"
   }
 }
