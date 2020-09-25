@@ -90,42 +90,73 @@
   },
   "constructor": {
     "prefix": "conc",
-    "body": ["constructor(props) {", "  super(props);", "  ${1:}", "}"],
+    "body": [
+      "constructor(props) {",
+      "  super(props);",
+      "  ${1:}",
+      "}"
+    ],
     "description": "Add a constructor in class."
   },
   "componentDidMount": {
     "prefix": "cdm",
-    "body": ["componentDidMount() {", "  ${1:}", "}"],
+    "body": [
+      "componentDidMount() {",
+      "  ${1:}",
+      "}"
+    ],
     "description": "Invoked immediately after a component is mounted."
   },
   "shouldComponentUpdate": {
     "prefix": "scu",
-    "body": ["shouldComponentUpdate(nextProps: ${1:}, nextState) {", "  ${2:}", "}"],
+    "body": [
+      "shouldComponentUpdate(nextProps: ${1:}, nextState) {",
+      "  ${2:}",
+      "}"
+    ],
     "description": "Invoked before rendering when new props or state are being received."
   },
   "componentWillUpdate": {
     "prefix": "cwu",
-    "body": ["componentWillUpdate(nextProps: ${1:}, nextState) {", "  ${2:}", "}"],
+    "body": [
+      "componentWillUpdate(nextProps: ${1:}, nextState) {",
+      "  ${2:}",
+      "}"
+    ],
     "description": "Invoked immediately before rendering when new props or state are being received."
   },
   "componentDidUpdate": {
     "prefix": "cdu",
-    "body": ["componentDidUpdate(prevProps: ${1:}, prevState) {", "  ${2:}", "}"],
+    "body": [
+      "componentDidUpdate(prevProps: ${1:}, prevState) {",
+      "  ${2:}",
+      "}"
+    ],
     "description": "Invoked immediately after updating occurs. This method is not called for the initial render"
   },
   "componentWillUnmount": {
     "prefix": "cwum",
-    "body": ["componentWillUnmount() {", "  ${1:}", "}"],
+    "body": [
+      "componentWillUnmount() {",
+      "  ${1:}",
+      "}"
+    ],
     "description": "Invoked immediately before a component is unmounted and destroyed"
   },
   "componentSetState": {
     "prefix": "sst",
-    "body": ["this.setState((prevState=>(${1:}));"],
+    "body": [
+      "this.setState((prevState=>(${1:}));"
+    ],
     "description": "Performs a shallow merge of nextState into current state"
   },
   "method": {
     "prefix": "met",
-    "body": ["${1:methodName} = (${2:e}) => {", "  ${3:}", "}"],
+    "body": [
+      "${1:methodName} = (${2:e}) => {",
+      "  ${3:}",
+      "}"
+    ],
     "description": "Create a method"
   },
   "React redux container": {
@@ -159,32 +190,55 @@
   },
   "import": {
     "prefix": "imt",
-    "body": ["import ${1:} from '${2:}';"],
+    "body": [
+      "import ${1:} from '${2:}';"
+    ],
     "description": "Create a import"
   },
   "importWithBrakets": {
     "prefix": "imtb",
-    "body": ["import { ${1:} } from '${2:}';"],
+    "body": [
+      "import { ${1:} } from '${2:}';"
+    ],
     "description": "Create a import with brackets"
   },
   "getDerivedStateFromProps": {
     "prefix": "gdsfp",
-    "body": ["static getDerivedStateFromProps(nextProps: ${1:any}, prevState: ${2:any}) {", "  ${0:}", "}"],
+    "body": [
+      "static getDerivedStateFromProps(nextProps: ${1:any}, prevState: ${2:any}) {",
+      "  ${0:}",
+      "}"
+    ],
     "description": "Invoked right before calling the render method, both on the initial mount and on subsequent updates"
   },
   "getSnapshotBeforeUpdate": {
     "prefix": "gsbu",
-    "body": ["getSnapshotBeforeUpdate(prevProps: ${1:any}, prevState: ${2:any}) {", "  ${0}", "}"],
+    "body": [
+      "getSnapshotBeforeUpdate(prevProps: ${1:any}, prevState: ${2:any}) {",
+      "  ${0}",
+      "}"
+    ],
     "description": "Invoked right before the most recently rendered output is committed to e.g. the DOM"
   },
   "TypeScriptObject": {
     "prefix": "tsobj",
-    "body": ["{[name:${1:string}]:${2:string}}"],
+    "body": [
+      "{[name:${1:string}]:${2:string}}"
+    ],
     "description": "Create a ts Json objtect structure"
   },
   "ConsoleLog": {
     "prefix": "csl",
-    "body": ["console.log(`${1:}`)"],
+    "body": [
+      "console.log(`${1:}`)"
+    ],
+    "description": "Create a console.log"
+  },
+  "ConsoleLogJson": {
+    "prefix": "cslj",
+    "body": [
+      "console.log(JSON.stringify(${1:string},null,4))"
+    ],
     "description": "Create a console.log"
   },
   "ReactIntlStructure": {
